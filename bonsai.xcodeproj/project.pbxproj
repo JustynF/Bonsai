@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D117DBBD2832F77500FDABF3 /* CardView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117DBBC2832F77500FDABF3 /* CardView-ViewModel.swift */; };
-		D117DBBE2832F77500FDABF3 /* CardView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117DBBC2832F77500FDABF3 /* CardView-ViewModel.swift */; };
 		D117DBC02835B30300FDABF3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117DBBF2835B30300FDABF3 /* CardView.swift */; };
 		D117DBC22835C54200FDABF3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117DBC12835C54200FDABF3 /* Extensions.swift */; };
+		D15D24CD283EB506002A57C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15D24CC283EB506002A57C8 /* Preview Assets.xcassets */; };
+		D196FB172840482F001B2E61 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196FB162840482F001B2E61 /* ProductDetailView.swift */; };
 		D1A4D018283E849700FFD21A /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A4D017283E849700FFD21A /* CardService.swift */; };
 		D1FC00B22836B50900C49130 /* ImageDownloaderActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FC00B12836B50900C49130 /* ImageDownloaderActor.swift */; };
 		D1FC00B42836BD9A00C49130 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FC00B32836BD9A00C49130 /* AsyncImageView.swift */; };
@@ -24,7 +25,6 @@
 		D1FD5F322823308F009AF70D /* bonsaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD5F312823308F009AF70D /* bonsaiApp.swift */; };
 		D1FD5F342823308F009AF70D /* CardViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD5F332823308F009AF70D /* CardViewContainer.swift */; };
 		D1FD5F362823308F009AF70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FD5F352823308F009AF70D /* Assets.xcassets */; };
-		D1FD5F392823308F009AF70D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FD5F382823308F009AF70D /* Preview Assets.xcassets */; };
 		D1FD5F4328233090009AF70D /* bonsaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD5F4228233090009AF70D /* bonsaiTests.swift */; };
 		D1FD5F4D28233090009AF70D /* bonsaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD5F4C28233090009AF70D /* bonsaiUITests.swift */; };
 		D1FD5F4F28233090009AF70D /* bonsaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD5F4E28233090009AF70D /* bonsaiUITestsLaunchTests.swift */; };
@@ -51,6 +51,8 @@
 		D117DBBC2832F77500FDABF3 /* CardView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardView-ViewModel.swift"; sourceTree = "<group>"; };
 		D117DBBF2835B30300FDABF3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D117DBC12835C54200FDABF3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D15D24CC283EB506002A57C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D196FB162840482F001B2E61 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		D1A4D017283E849700FFD21A /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		D1FC00B12836B50900C49130 /* ImageDownloaderActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderActor.swift; sourceTree = "<group>"; };
 		D1FC00B32836BD9A00C49130 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
@@ -65,7 +67,6 @@
 		D1FD5F312823308F009AF70D /* bonsaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonsaiApp.swift; sourceTree = "<group>"; };
 		D1FD5F332823308F009AF70D /* CardViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewContainer.swift; sourceTree = "<group>"; };
 		D1FD5F352823308F009AF70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1FD5F382823308F009AF70D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1FD5F3E28233090009AF70D /* bonsaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bonsaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FD5F4228233090009AF70D /* bonsaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonsaiTests.swift; sourceTree = "<group>"; };
 		D1FD5F4828233090009AF70D /* bonsaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bonsaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +99,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D196FB14283FD091001B2E61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1FC00C3283DA93D00C49130 /* ContentView.swift */,
+				D117DBBF2835B30300FDABF3 /* CardView.swift */,
+				D1FC00C1283D803B00C49130 /* BottomBarView.swift */,
+				D1FD5F332823308F009AF70D /* CardViewContainer.swift */,
+				D196FB162840482F001B2E61 /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D196FB15283FD0BE001B2E61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1A4D017283E849700FFD21A /* CardService.swift */,
+				D1FC00BB283C708F00C49130 /* DateView-ViewModel.swift */,
+				D117DBBC2832F77500FDABF3 /* CardView-ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D1FD5F252823308F009AF70D = {
 			isa = PBXGroup;
 			children = (
@@ -121,21 +144,16 @@
 		D1FD5F302823308F009AF70D /* bonsai */ = {
 			isa = PBXGroup;
 			children = (
+				D196FB15283FD0BE001B2E61 /* ViewModel */,
+				D196FB14283FD091001B2E61 /* View */,
 				D1FD5F352823308F009AF70D /* Assets.xcassets */,
 				D1FD5F312823308F009AF70D /* bonsaiApp.swift */,
-				D1FC00C3283DA93D00C49130 /* ContentView.swift */,
-				D1FC00B32836BD9A00C49130 /* AsyncImageView.swift */,
-				D1FC00C1283D803B00C49130 /* BottomBarView.swift */,
-				D117DBBF2835B30300FDABF3 /* CardView.swift */,
-				D1FD5F332823308F009AF70D /* CardViewContainer.swift */,
-				D117DBBC2832F77500FDABF3 /* CardView-ViewModel.swift */,
-				D1A4D017283E849700FFD21A /* CardService.swift */,
 				D1FC00BD283C76F000C49130 /* CarouselView.swift */,
-				D1FC00B12836B50900C49130 /* ImageDownloaderActor.swift */,
-				D1FC00B7283879FE00C49130 /* Product.swift */,
 				D1FC00B928388A5600C49130 /* DateView.swift */,
-				D1FC00BB283C708F00C49130 /* DateView-ViewModel.swift */,
+				D1FC00B7283879FE00C49130 /* Product.swift */,
 				D117DBC12835C54200FDABF3 /* Extensions.swift */,
+				D1FC00B12836B50900C49130 /* ImageDownloaderActor.swift */,
+				D1FC00B32836BD9A00C49130 /* AsyncImageView.swift */,
 				D1FD5F372823308F009AF70D /* Preview Content */,
 				D1FC00BF283CA28700C49130 /* TouchLocatingView.swift */,
 			);
@@ -145,7 +163,7 @@
 		D1FD5F372823308F009AF70D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D1FD5F382823308F009AF70D /* Preview Assets.xcassets */,
+				D15D24CC283EB506002A57C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -271,7 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FD5F392823308F009AF70D /* Preview Assets.xcassets in Resources */,
+				D15D24CD283EB506002A57C8 /* Preview Assets.xcassets in Resources */,
 				D1FD5F362823308F009AF70D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1FC00C4283DA93D00C49130 /* ContentView.swift in Sources */,
+				D196FB172840482F001B2E61 /* ProductDetailView.swift in Sources */,
 				D1A4D018283E849700FFD21A /* CardService.swift in Sources */,
 				D1FC00B22836B50900C49130 /* ImageDownloaderActor.swift in Sources */,
 				D1FC00C0283CA28700C49130 /* TouchLocatingView.swift in Sources */,
@@ -320,7 +339,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1FD5F4328233090009AF70D /* bonsaiTests.swift in Sources */,
-				D117DBBE2832F77500FDABF3 /* CardView-ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

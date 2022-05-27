@@ -20,10 +20,14 @@ struct CardViewContainer: View {
                                         .background(Color.blue)
                                         .clipShape(Circle())
                                         .offset(x: -geometry.size.width / 4, y: -geometry.size.height / 2)
-                    switch productViewModel.state{
-                    case .sucess(let products):
+                    
+                    
+                   
                         VStack{
                             DateView()
+                            switch productViewModel.state{
+                            case .sucess(let products):
+                            Spacer()
                             ZStack{
                                 ForEach(products,id: \.product_id){ product in
                                     Group{
@@ -34,14 +38,14 @@ struct CardViewContainer: View {
                                     
                                 }
                             }
-                            
+                            case .loading:
+                                ProgressView()
+                                
+                            default:
+                                EmptyView()
+                            }
                         }
-                    case .loading:
-                        ProgressView()
-                        
-                    default:
-                        EmptyView()
-                    }
+                   
                 }
                 
             }.task {
