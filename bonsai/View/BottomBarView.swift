@@ -17,14 +17,13 @@ struct ViewFactory {
 }
 struct BottomBarView: View {
     private var product:Product
-    private var viewModel:ProductViewModel
-    init(viewModel:ProductViewModel,product:Product){
+    private var viewModel:CardViewModel
+    init(viewModel:CardViewModel,product:Product){
         self.product=product
         self.viewModel=viewModel
     }
     var body: some View {
         HStack {
-            ViewFactory.button("test")
             ViewFactory.button("back_icon", renderingMode: .template)
                 .foregroundColor(.orange)
             Spacer()

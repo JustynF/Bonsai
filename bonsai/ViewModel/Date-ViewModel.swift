@@ -14,7 +14,7 @@ extension DateView{
         
         func getDate() -> String{
             dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
-            var currentDate = dateFormatter.string(from: Date.now)
+            let currentDate = dateFormatter.string(from: Date.now)
             return currentDate
         }
     }

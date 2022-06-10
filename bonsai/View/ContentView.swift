@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct ContentView:View{
-    @ObservedObject var cardViewModel:ProductViewModel
+    @ObservedObject var cardViewModel:CardViewModel
     var body: some View{
         GeometryReader{
             geometry in

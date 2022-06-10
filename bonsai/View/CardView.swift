@@ -18,12 +18,12 @@ struct CardView: View {
     var day: String = "Day"
     var cardAlpha: Double = 1.0
     
-    @ObservedObject var productViewModel:ProductViewModel
+    @ObservedObject var productViewModel:CardViewModel
+
 
     @State private var translation: CGSize = .zero
-    @State private var isDragging = false
-    @State private var motionOffset: Double = 0.0
-    @State private var motionScale: Double = 0.0
+    @State private var showDetails = false
+    
     @State private var swipeStatus: likeState = .empty
     
     
@@ -32,53 +32,40 @@ struct CardView: View {
     private var onRemove: (_ product: Product) -> Void
     
     
-    init(product: Product,viewModel:ProductViewModel, onRemove: @escaping (_ product: Product) -> Void){
+    init(product: Product,viewModel:CardViewModel, onRemove: @escaping (_ product: Product) -> Void){
         self.product = product
         self.onRemove = onRemove
         self.productViewModel = viewModel
     }
-    private func getIconName(state: likeState) -> String
-        {
-            switch state
-            {
-                case .hot:     return "hot"
-                case .not:     return "not"
-                default:       return "Empty"
-            }
-        }
-    
-    
-    private func setCardState(offset: CGFloat) -> likeState
-        {
-            if offset <= CardViewConsts.hotThreshold   { return .hot }
-            if offset >= CardViewConsts.notThreshold   { return .not }
-            return .empty
-        }
-    
-    
-    private func getSwipePercentage(_ geometry: GeometryProxy, from gesture: DragGesture.Value) -> CGFloat {
-            gesture.translation.width / geometry.size.width
-        }
+
 
     var body: some View {
         GeometryReader { geometry in
             VStack(alignment: .leading) {
                 CarouselView(numberOfImages: self.product.product_images.count){
                     ForEach (self.product.product_images, id:\.image_id){ img in
-                        AsyncImage(url:URL(string: img.img_url),content:{ image in
-                            image.resizable()                        },
-                                   placeholder: {
-                            ProgressView()
-                        })
-                            .scaledToFill()
-                            .frame(width: geometry.size.width, height: geometry.size.height * 0.75)
-                            .clipped()
+                        let img_url = "https"+img.img_url.dropFirst(4)
+                        AsyncImage(url:URL(string: img_url)){ phase in
+                            if let image = phase.image{
+                                image
+                                    .resizable()
+                            }else if phase.error != nil{
+                                Color.blue
+                            }else{
+                                ProgressView()
+                            
+                        }
+                            
+                        }
+                        .scaledToFill()
+                        .frame(width: geometry.size.width, height: geometry.size.height * 0.75)
+                        .clipped()
                 }
                 }
                 
                 HStack {
                     VStack(alignment: .leading, spacing: 6) {
-                        Text(product.title+","+product.lineage)
+                        Text(product.title)
                             .font(.title)
                             .bold()
                         Text(product.vendor)
@@ -92,9 +79,14 @@ struct CardView: View {
                     Spacer()
                     
                     Image(systemName: "info.circle")
-                        .foregroundColor(self.isDragging ? .red : .gray)
+                        .onTapGesture {
+                            showDetails.toggle()
+                        }
                 }.padding(.horizontal)
                 BottomBarView(viewModel:productViewModel,product: self.product)
+            }
+            .sheet(isPresented: $showDetails){
+                ProductView(productId: product.product_id, productDetailViewModel: ProductDetailViewModel(productService: ProductService()))
             }
             // Add padding, corner radius and shadow with blur radius
             .padding(.bottom)
@@ -123,13 +115,38 @@ struct CardView: View {
                        
                         
                     })
-            .onTapGesture(count: 2) {
+            .onTapGesture(count: 2){
                 print("double tap")
             }
             
             
         }
           }
+}
+
+extension CardView{
+    private func getIconName(state: likeState) -> String
+        {
+            switch state
+            {
+                case .hot:     return "hot"
+                case .not:     return "not"
+                default:       return "Empty"
+            }
+        }
+    
+    
+    private func setCardState(offset: CGFloat) -> likeState
+        {
+            if offset <= CardViewConsts.hotThreshold   { return .hot }
+            if offset >= CardViewConsts.notThreshold   { return .not }
+            return .empty
+        }
+    
+    
+    private func getSwipePercentage(_ geometry: GeometryProxy, from gesture: DragGesture.Value) -> CGFloat {
+            gesture.translation.width / geometry.size.width
+        }
 }
 
 private struct CardViewConsts

@@ -27,7 +27,7 @@ struct CarouselView<Content: View>: View{
                 }
                 .frame(width: geometry.size.width, height: geometry.size.height, alignment: .leading)
                 .offset(x: CGFloat(self.currentIndex) * -geometry.size.width, y: 0)
-                .onTouch{ CGPoint in
+                .onTouch(type: .started){ CGPoint in
                     self.tapPoisition = CGPoint
                 }.onTapGesture {
                     if(self.tapPoisition.x>geometry.size.width/2){

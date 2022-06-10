@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CardViewContainer: View {
-    @ObservedObject var productViewModel:ProductViewModel
+    @ObservedObject var productViewModel:CardViewModel
     
     
     var body: some View {
@@ -21,8 +21,7 @@ struct CardViewContainer: View {
                                         .clipShape(Circle())
                                         .offset(x: -geometry.size.width / 4, y: -geometry.size.height / 2)
                     
-                    
-                   
+
                         VStack{
                             DateView()
                             switch productViewModel.state{
@@ -68,3 +67,5 @@ struct CardViewContainer: View {
             }
     }
 }
+
+

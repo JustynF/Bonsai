@@ -192,5 +192,414 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EB9637E-FCC7-4F3C-B93D-8CE089037A2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/TouchLocatingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "body(content:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8EB9637E-FCC7-4F3C-B93D-8CE089037A2D - 1b108f0fd18cb075"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.TouchLocatingView.TouchLocatingUIView.limitToBounds.getter : Swift.Bool"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/TouchLocatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "8EB9637E-FCC7-4F3C-B93D-8CE089037A2D - 61a9ee5e4cdc9841"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.TouchLocatingView.TouchLocatingUIView.limitToBounds.setter : Swift.Bool"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/TouchLocatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "8EB9637E-FCC7-4F3C-B93D-8CE089037A2D - e702e82eaaad5ca6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.TouchLocatingView.TouchLocatingUIView.limitToBounds.modify : Swift.Bool"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/TouchLocatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "8EB9637E-FCC7-4F3C-B93D-8CE089037A2D - 2b8c5efc75370aa8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.TouchLocatingView.TouchLocatingUIView.limitToBounds.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/TouchLocatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8EB9637E-FCC7-4F3C-B93D-8CE089037A2D - 160607acd7ae5dd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.TouchLocatingView.TouchLocatingUIView.init(frame: __C.CGRect) -&gt; bonsai.TouchLocatingView.TouchLocatingUIView"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/TouchLocatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "8EB9637E-FCC7-4F3C-B93D-8CE089037A2D - 750caa8c4bc6f76b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.TouchLocatingView.TouchLocatingUIView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;bonsai.TouchLocatingView.TouchLocatingUIView&gt;"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/TouchLocatingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D7985CB-B1DC-4055-AB17-7CD62388B116"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/ViewModel/ProductDetail-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchProduct(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D7985CB-B1DC-4055-AB17-7CD62388B116 - d24a357bff80f063"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for bonsai.ProductDetailViewModel.fetchProduct(id: Swift.Int) async -&gt; ()"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/ViewModel/ProductDetail-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "0D7985CB-B1DC-4055-AB17-7CD62388B116 - edc8b0b19cf27a5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for bonsai.ProductDetailViewModel.fetchProduct(id: Swift.Int) async -&gt; ()"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/ViewModel/ProductDetail-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "0D7985CB-B1DC-4055-AB17-7CD62388B116 - edc8b0b19cf27a5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for bonsai.ProductDetailViewModel.fetchProduct(id: Swift.Int) async -&gt; ()"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/ViewModel/ProductDetail-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "0D7985CB-B1DC-4055-AB17-7CD62388B116 - a07de93b1e9fc61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for bonsai.ProductDetailViewModel.fetchProduct(id: Swift.Int) async -&gt; ()"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/ViewModel/ProductDetail-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "0D7985CB-B1DC-4055-AB17-7CD62388B116 - e63e0a5849067a60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for bonsai.ProductDetailViewModel.fetchProduct(id: Swift.Int) async -&gt; ()"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/ViewModel/ProductDetail-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29A31ED1-BD7C-4BDA-88CA-85CD0D5125F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/ViewModel/ProductService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchProductsWith(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F93BB439-8167-4035-8920-BE2F04CEE77D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/ViewModel/ProductService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchProductsWith(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "648C9AAC-67BF-4923-B535-748CBD048EA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/ViewModel/ProductDetail-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchProduct(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4262E5C2-1CA7-4566-99AD-8321A7D9C797"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/View/ProductDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4262E5C2-1CA7-4566-99AD-8321A7D9C797 - 114f557cf61366ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in bonsai.ProductDetailView.body.getter : some"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/View/ProductDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "4262E5C2-1CA7-4566-99AD-8321A7D9C797 - c14ae060c384fe5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; bonsai.CarouselView&lt;SwiftUI.ForEach&lt;Swift.Array&lt;bonsai.ProductImage&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.animation(Swift.Optional&lt;SwiftUI.Animation&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in bonsai.ProductDetailView.body.getter : some"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/View/ProductDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A29FBF2-DD7E-499E-B3D9-CBD0781728AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/ViewModel/ProductDetail-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(productService:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A29FBF2-DD7E-499E-B3D9-CBD0781728AD - 96266e1fb1a34bf2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.ProductDetailViewModel.__allocating_init(productService: bonsai.ProductService) -&gt; bonsai.ProductDetailViewModel"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/ViewModel/ProductDetail-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "0A29FBF2-DD7E-499E-B3D9-CBD0781728AD - 4fc3a51bbacf0ea9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bonsai.ProductDetailViewModel.init(productService: bonsai.ProductService) -&gt; bonsai.ProductDetailViewModel"
+                  moduleName = "bonsai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justyn/Bonsai/bonsai/bonsai/ViewModel/ProductDetail-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9B21D5A-EEDB-457C-BFBF-1C24E9862E30"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/ViewModel/ProductDetail-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(productService:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95658923-86B3-4486-B43C-17B31D557A4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/ViewModel/ProductDetail-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ProductDetailViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C86018F7-787C-415F-BD7D-5D928724E450"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/View/CardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90EE1AF0-35F6-436B-AF39-4705D5C06590"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bonsai/View/ProductDetailCarouselView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

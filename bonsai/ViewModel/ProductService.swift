@@ -20,6 +20,12 @@ struct ProductService{
         return response.products
        
     }
+    func fetchProductsWith(id:Int) async throws -> [Product]{
+       let url = "http://localhost:8080/api/rest/products/"+String(id)
+       let response = try await makeUrlRequestWith(url: url)
+       return response.products
+      
+   }
     
     private func makeUrlRequestWith(url:String) async throws -> ProductResponse{
         var result = ProductResponse(products: [])

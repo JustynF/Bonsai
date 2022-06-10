@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct bonsaiApp: App {
-    @StateObject var cardViewModel = ProductViewModel(service: ProductService())
+    @StateObject var cardViewModel = CardViewModel(service: ProductService())
     var body: some Scene {
         WindowGroup {
             ContentView(cardViewModel: cardViewModel)

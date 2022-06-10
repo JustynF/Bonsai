@@ -7,6 +7,14 @@
 
 import SwiftUI
 import Combine
+
+// to apply touch locater view.
+extension View {
+    func onTouch(type: TouchLocatingView.TouchType = .all, limitToBounds: Bool = true, perform: @escaping (CGPoint) -> Void) -> some View {
+        self.modifier(TouchLocater(type: type, limitToBounds: limitToBounds, perform: perform))
+    }
+}
+
 extension Double
 {
     static func remap(from: Double, fromMin: Double, fromMax: Double, toMin: Double, toMax: Double) -> Double

@@ -9,11 +9,6 @@ import Foundation
 import SwiftUI
 
 
-
-
-
-
-
 struct NetworkResponse <Wrapped: Decodable>: Decodable{
     var result:Wrapped
     enum CodingKeys: String, CodingKey {
@@ -22,7 +17,7 @@ struct NetworkResponse <Wrapped: Decodable>: Decodable{
        }
 }
 
-@MainActor class ProductViewModel: ObservableObject{
+@MainActor class CardViewModel: ObservableObject{
     
     enum ProductViewModelState {
         case initial
@@ -38,10 +33,11 @@ struct NetworkResponse <Wrapped: Decodable>: Decodable{
     
     
     
-    @Published private(set) var productLimit:Int = 30
+    @Published private(set) var productLimit:Int = 5
     @Published private(set) var productOffset:Int = 0
     @Published private(set) var state: ProductViewModelState = .initial
     @Published private(set) var productListState: ProductListState = .initial
+    
     
     private var products:[Product] = []
     private let service: ProductService
