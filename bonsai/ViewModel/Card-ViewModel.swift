@@ -9,14 +9,6 @@ import Foundation
 import SwiftUI
 
 
-struct NetworkResponse <Wrapped: Decodable>: Decodable{
-    var result:Wrapped
-    enum CodingKeys: String, CodingKey {
-           case result = "products"
-           
-       }
-}
-
 @MainActor class CardViewModel: ObservableObject{
     
     enum ProductViewModelState {
@@ -25,6 +17,7 @@ struct NetworkResponse <Wrapped: Decodable>: Decodable{
         case sucess(data: [Product])
         case failed(error: Error)
     }
+    
     enum ProductListState {
         case initial
         case empty

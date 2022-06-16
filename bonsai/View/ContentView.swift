@@ -15,7 +15,7 @@ struct ContentView:View{
             geometry in
             
             TabView{
-                CardViewContainer(productViewModel: cardViewModel)
+                CardStackView(productViewModel: cardViewModel)
                     .tabItem {
                         Image(systemName: "star.fill")
                                 Text("Feed")

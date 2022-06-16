@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardViewContainer: View {
+struct CardStackView: View {
     @ObservedObject var productViewModel:CardViewModel
     
     

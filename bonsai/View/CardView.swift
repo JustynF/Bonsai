@@ -15,9 +15,6 @@ private enum likeState
 }
 
 struct CardView: View {
-    var day: String = "Day"
-    var cardAlpha: Double = 1.0
-    
     @ObservedObject var productViewModel:CardViewModel
 
 
@@ -38,7 +35,6 @@ struct CardView: View {
         self.productViewModel = viewModel
     }
 
-
     var body: some View {
         GeometryReader { geometry in
             VStack(alignment: .leading) {
@@ -53,9 +49,7 @@ struct CardView: View {
                                 Color.blue
                             }else{
                                 ProgressView()
-                            
                         }
-                            
                         }
                         .scaledToFill()
                         .frame(width: geometry.size.width, height: geometry.size.height * 0.75)
@@ -75,9 +69,7 @@ struct CardView: View {
                             .font(.subheadline)
                             .foregroundColor(.gray)
                     }
-                    // Add a spacer to push our HStack to the left and the spacer fill the empty space
                     Spacer()
-                    
                     Image(systemName: "info.circle")
                         .onTapGesture {
                             showDetails.toggle()
@@ -103,17 +95,16 @@ struct CardView: View {
                         .onChanged{gesture in
                         print("swipe started")
                         self.translation = gesture.translation
-                        self.swipeStatus = setCardState(offset: gesture.translation.width)
                     }
                     .onEnded{gesture in
                         print("swipe ended")
                 if(abs(self.translation.width / geometry.size.width)>CardViewConsts.swipeThreshold){
                     self.onRemove(self.product)
+                    self.swipeStatus = setCardState(offset: gesture.translation.width)
+                        print("swipeStatus:\(self.swipeStatus)")
                 }else{
                     self.translation = .zero
                 }
-                       
-                        
                     })
             .onTapGesture(count: 2){
                 print("double tap")
@@ -138,8 +129,8 @@ extension CardView{
     
     private func setCardState(offset: CGFloat) -> likeState
         {
-            if offset <= CardViewConsts.hotThreshold   { return .hot }
-            if offset >= CardViewConsts.notThreshold   { return .not }
+            if offset >= CardViewConsts.hotThreshold   { return .hot }
+            if offset <= CardViewConsts.notThreshold   { return .not }
             return .empty
         }
     
